@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+</head>
+<body>
+{{> includes/header}}
+
+<h2>Simple Calculator</h2>
+
+<form method="post" action="/calculate">
+    <input type="number" name="num1" placeholder="First number" required value="{{num1}}">
+    <input type="number" name="num2" placeholder="Second number" required value="{{num2}}">
+
+    <select name="operation">
+        <option value="add" {{#ifCond operation 'add'}}selected{{/ifCond}}>Add</option>
+        <option value="sub" {{#ifCond operation 'sub'}}selected{{/ifCond}}>Subtract</option>
+        <option value="mul" {{#ifCond operation 'mul'}}selected{{/ifCond}}>Multiply</option>
+        <option value="div" {{#ifCond operation 'div'}}selected{{/ifCond}}>Divide</option>
+    </select>
+
+    <button type="submit">Calculate</button>
+</form>
+
+{{#if result}}
+<p><strong>Result:</strong> {{result}}</p>
+{{/if}}
+
+{{#if error}}
+<p style="color:red;"><strong>Error:</strong> {{error}}</p>
+{{/if}}
+
+{{> includes/footer}}
+</body>
+</html>

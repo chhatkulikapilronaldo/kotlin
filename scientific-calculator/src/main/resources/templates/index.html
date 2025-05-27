@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Scientific Calculator</title>
+</head>
+<body>
+<h2>Scientific Calculator</h2>
+<h2>CHHATKULI KAPIL M24W7304</h2>
+
+<form action="/calculate" method="post">
+    <label>Full Name:</label>
+    <input type="text" name="fullName" required><br>
+
+    <label>Student ID:</label>
+    <input type="text" name="studentId" required><br><br>
+
+    <label>Input 1:</label>
+    <input type="text" name="input1" required><br>
+
+    <label>Input 2 (if required):</label>
+    <input type="text" name="input2"><br>
+
+    <label>Operation:</label>
+    <select name="operation">
+        <option value="+">Addition</option>
+        <option value="-">Subtraction</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
+        <option value="^">Exponentiation</option>
+        <option value="square">Square</option>
+        <option value="sqrt">Square Root</option>
+        <option value="cbrt">Cube Root</option>
+        <option value="log10">Log10</option>
+        <option value="ln">Natural Log</option>
+        <option value="inv">Inverse</option>
+        <option value="sin">Sine</option>
+        <option value="cos">Cosine</option>
+        <option value="tan">Tangent</option>
+    </select><br><br>
+
+    <button type="submit">Calculate</button>
+</form>
+
+<div>
+    <h3>Result: <span th:text="${result}"></span></h3>
+    <p><strong>User:</strong> <span th:text="${fullName}"></span> | <strong>ID:</strong> <span th:text="${studentId}"></span></p>
+</div>
+</body>
+</html>

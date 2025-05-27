@@ -1,0 +1,9 @@
+type Query {
+    getPosts: [Post]!
+}
+
+type Post {
+    teacher : String
+    title: String!
+    greeting: String
+}
