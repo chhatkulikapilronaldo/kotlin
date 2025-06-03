@@ -1,8 +1,15 @@
+<!--
+    Student Name: Chhatkuli Kapil
+    Student ID: M24W7304
+-->
+
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Zoo Feedback - Chhatkuli Kapil (M24W7304)</title>
+
+    <!-- Inline CSS styling for layout and visuals -->
     <style>
         body {
             font-family: "Segoe UI", sans-serif;
@@ -64,33 +71,70 @@
         }
     </style>
 </head>
+
 <body>
 <div class="container">
+    <!-- Page Header -->
     <h2>Zoo Feedback Form</h2>
+
+    <!-- Display student name and ID -->
     <div class="user-info">
         <p><strong>Name:</strong> Chhatkuli Kapil</p>
         <p><strong>Student ID:</strong> M24W7304</p>
     </div>
 
+    <!-- Show success message if form is submitted -->
     <div th:if="${param.submitted}" class="success-message">
         ✅ Feedback submitted successfully!
     </div>
 
+    <!-- Feedback form bound to the 'feedback' model object -->
     <form th:action="@{/submit-feedback}" th:object="${feedback}" method="post">
-        <label>1. Staff behavior?</label><input th:field="*{q1}" required />
-        <label>2. Ticket process?</label><input th:field="*{q2}" required />
-        <label>3. Clean environment?</label><input th:field="*{q3}" required />
-        <label>4. Zoo navigation?</label><input th:field="*{q4}" required />
-        <label>5. Safety signs?</label><input th:field="*{q5}" required />
-        <label>6. Food hygiene?</label><input th:field="*{q6}" required />
-        <label>7. Guided tour?</label><input th:field="*{q7}" required />
-        <label>8. Tour info?</label><input th:field="*{q8}" required />
-        <label>9. Resting spots?</label><input th:field="*{q9}" required />
-        <label>10. Interaction fun?</label><input th:field="*{q10}" required />
-        <label>11. Accessibility?</label><input th:field="*{q11}" required />
-        <label>12. App helpful?</label><input th:field="*{q12}" required />
-        <label>13. Recommend zoo?</label><input th:field="*{q13}" required />
-        <label>Additional Comments:</label><textarea th:field="*{comments}" rows="4"></textarea>
+        <!-- 13 Survey Questions -->
+        <label>1. Staff behavior?</label>
+        <input th:field="*{q1}" required />
+
+        <label>2. Ticket process?</label>
+        <input th:field="*{q2}" required />
+
+        <label>3. Clean environment?</label>
+        <input th:field="*{q3}" required />
+
+        <label>4. Zoo navigation?</label>
+        <input th:field="*{q4}" required />
+
+        <label>5. Safety signs?</label>
+        <input th:field="*{q5}" required />
+
+        <label>6. Food hygiene?</label>
+        <input th:field="*{q6}" required />
+
+        <label>7. Guided tour?</label>
+        <input th:field="*{q7}" required />
+
+        <label>8. Tour info?</label>
+        <input th:field="*{q8}" required />
+
+        <label>9. Resting spots?</label>
+        <input th:field="*{q9}" required />
+
+        <label>10. Interaction fun?</label>
+        <input th:field="*{q10}" required />
+
+        <label>11. Accessibility?</label>
+        <input th:field="*{q11}" required />
+
+        <label>12. App helpful?</label>
+        <input th:field="*{q12}" required />
+
+        <label>13. Recommend zoo?</label>
+        <input th:field="*{q13}" required />
+
+        <!-- Free text field for optional comments -->
+        <label>Additional Comments:</label>
+        <textarea th:field="*{comments}" rows="4"></textarea>
+
+        <!-- Submit button -->
         <button type="submit">Submit Feedback</button>
     </form>
 </div>

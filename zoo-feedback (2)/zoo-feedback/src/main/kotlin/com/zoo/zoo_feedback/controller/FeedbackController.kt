@@ -1,5 +1,6 @@
-/*Student Name: Chhatkuli Kapil
-Student Id: M24W7304
+/*
+ * Student Name: Chhatkuli Kapil
+ * Student ID: M24W7304
  */
 
 package com.zoo.zoo_feedback.controller
@@ -10,28 +11,41 @@ import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.*
 import org.springframework.ui.Model
 
+// Marks this class as a Spring MVC Controller that handles web requests
 @Controller
 class FeedbackController(
+    // Dependency injection of the in-memory feedback repository
     private val feedbackRepo: InMemoryFeedbackRepository
 ) {
-//Feeedback_form API
+
+    // Route: GET /feedback-form
+    // Description: Displays the feedback form page
     @GetMapping("/feedback-form")
     fun showForm(model: Model): String {
+        // Add an empty Feedback object to the model to bind form data
         model.addAttribute("feedback", Feedback(
             "", "", "", "", "", "", "", "", "", "", "", "", "", ""
         ))
+        // Return the name of the Thymeleaf template (feedback_form.html)
         return "feedback_form"
     }
-//submit feedback API
+
+    // Route: POST /submit-feedback
+    // Description: Handles form submission and saves feedback data
     @PostMapping("/submit-feedback")
     fun submitForm(@ModelAttribute feedback: Feedback): String {
+        // Save the submitted feedback to the in-memory repository
         feedbackRepo.save(feedback)
+        // Redirect back to the form with a success flag
         return "redirect:/feedback-form?submitted=true"
     }
-//API feedback
+
+    // Route: GET /feedbacks
+    // Description: Returns all submitted feedbacks as a JSON list
     @ResponseBody
     @GetMapping("/feedbacks")
     fun allFeedbacks(): List<Map<String, String>> {
+        // Convert each Feedback object to a Map for display as JSON
         return feedbackRepo.findAll().map {
             mapOf(
                 "Q1" to it.q1,
