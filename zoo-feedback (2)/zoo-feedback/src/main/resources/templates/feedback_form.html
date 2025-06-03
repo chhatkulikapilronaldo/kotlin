@@ -91,43 +91,43 @@
     <!-- Feedback form bound to the 'feedback' model object -->
     <form th:action="@{/submit-feedback}" th:object="${feedback}" method="post">
         <!-- 13 Survey Questions -->
-        <label>1. Staff behavior?</label>
+        <label>1. How was the behavior of the zoo staff during your visit?</label>
         <input th:field="*{q1}" required />
 
-        <label>2. Ticket process?</label>
+        <label>2. Was the ticket purchasing process smooth and convenient?</label>
         <input th:field="*{q2}" required />
 
-        <label>3. Clean environment?</label>
+        <label>3. How clean was the zoo environment overall?</label>
         <input th:field="*{q3}" required />
 
-        <label>4. Zoo navigation?</label>
+        <label>4. Was it easy to find your way around the zoo?</label>
         <input th:field="*{q4}" required />
 
-        <label>5. Safety signs?</label>
+        <label>5. Were safety signs and instructions clearly visible?</label>
         <input th:field="*{q5}" required />
 
-        <label>6. Food hygiene?</label>
+        <label>6. How would you rate the hygiene and cleanliness of the food areas?</label>
         <input th:field="*{q6}" required />
 
-        <label>7. Guided tour?</label>
+        <label>7. Did you participate in any guided tours or educational sessions?</label>
         <input th:field="*{q7}" required />
 
-        <label>8. Tour info?</label>
+        <label>8. Was the information provided during tours or on signs informative?</label>
         <input th:field="*{q8}" required />
 
-        <label>9. Resting spots?</label>
+        <label>9. Were there enough places to sit and rest throughout the zoo?</label>
         <input th:field="*{q9}" required />
 
-        <label>10. Interaction fun?</label>
+        <label>10. Did you or your children enjoy any animal interaction activities?</label>
         <input th:field="*{q10}" required />
 
-        <label>11. Accessibility?</label>
+        <label>11. Was the zoo accessible for people with disabilities or strollers?</label>
         <input th:field="*{q11}" required />
 
-        <label>12. App helpful?</label>
+        <label>12. Did you use the zoo’s mobile app or website? Was it helpful?</label>
         <input th:field="*{q12}" required />
 
-        <label>13. Recommend zoo?</label>
+        <label>13. Would you recommend this zoo to your friends or family? Why or why not?</label>
         <input th:field="*{q13}" required />
 
         <!-- Free text field for optional comments -->
