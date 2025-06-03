@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo Feedback - Chhatkuli Kapil (M24W7304)</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #f9fafb;
+        }
+        .container {
+            max-width: 720px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #2563eb;
+        }
+        .user-info {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #444;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+            color: #333;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            margin-top: 25px;
+            padding: 12px 20px;
+            background-color: #2563eb;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1d4ed8;
+        }
+        .success-message {
+            color: green;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Zoo Feedback Form</h2>
+    <div class="user-info">
+        <p><strong>Name:</strong> Chhatkuli Kapil</p>
+        <p><strong>Student ID:</strong> M24W7304</p>
+    </div>
+
+    <div th:if="${param.submitted}" class="success-message">
+        ✅ Feedback submitted successfully!
+    </div>
+
+    <form th:action="@{/submit-feedback}" th:object="${feedback}" method="post">
+        <label>1. Staff behavior?</label><input th:field="*{q1}" required />
+        <label>2. Ticket process?</label><input th:field="*{q2}" required />
+        <label>3. Clean environment?</label><input th:field="*{q3}" required />
+        <label>4. Zoo navigation?</label><input th:field="*{q4}" required />
+        <label>5. Safety signs?</label><input th:field="*{q5}" required />
+        <label>6. Food hygiene?</label><input th:field="*{q6}" required />
+        <label>7. Guided tour?</label><input th:field="*{q7}" required />
+        <label>8. Tour info?</label><input th:field="*{q8}" required />
+        <label>9. Resting spots?</label><input th:field="*{q9}" required />
+        <label>10. Interaction fun?</label><input th:field="*{q10}" required />
+        <label>11. Accessibility?</label><input th:field="*{q11}" required />
+        <label>12. App helpful?</label><input th:field="*{q12}" required />
+        <label>13. Recommend zoo?</label><input th:field="*{q13}" required />
+        <label>Additional Comments:</label><textarea th:field="*{comments}" rows="4"></textarea>
+        <button type="submit">Submit Feedback</button>
+    </form>
+</div>
+</body>
+</html>
