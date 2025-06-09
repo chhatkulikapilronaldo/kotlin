@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #34495e;
+        }
+        .container {
+            background: white;
+            padding: 2.5rem 3rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(52, 73, 94, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 {
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        input[type="text"],
+        input[type="password"] {
+            padding: 0.5rem 0.75rem;
+            font-size: 1rem;
+            border: 1.5px solid #ccc;
+            border-radius: 6px;
+            outline-color: #2980b9;
+            transition: border-color 0.3s ease;
+            width: 100%;
+        }
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #2980b9;
+        }
+        button {
+            background-color: #2980b9;
+            border: none;
+            color: white;
+            padding: 0.75rem 0;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #1c5f9e;
+        }
+        div[th\\:if] p {
+                         margin-bottom: 1rem;
+                         font-weight: 600;
+                     }
+        div[th\\:if="${param.logout}"] p {
+                                           color: #27ae60; /* green */
+                                       }
+        div[th\\:if="${param.error}"] p {
+                                          color: #e74c3c; /* red */
+                                      }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Chhatkuli Kapil(M24W7304)</h2>
+
+    <!-- Show logout success message -->
+    <div th:if="${param.logout}">
+        <p>You have been logged out successfully.</p>
+    </div>
+
+    <!-- Show login error -->
+    <div th:if="${param.error}">
+        <p>Invalid username or password.</p>
+    </div>
+
+    <form th:action="@{/login}" method="post">
+        <label>Username: <input type="text" name="username" /></label>
+        <label>Password: <input type="password" name="password" /></label>
+        <button type="submit">Login</button>
+    </form>
+</div>
+</body>
+</html>

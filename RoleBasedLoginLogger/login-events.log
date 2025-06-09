@@ -1,0 +1,278 @@
+2025-06-09 18:19:26 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 99984 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:19:26 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:19:26 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:19:26 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:19:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-09 18:19:28 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 18:19:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:19:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:19:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:19:28 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2445 ms
+2025-06-09 18:19:29 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:19:30 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:19:30 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 18:19:30 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-06-09 18:19:30 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-09 18:19:30 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-06-09 18:20:34 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 96152 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:20:34 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:20:34 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:20:34 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:20:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:20:35 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:20:35 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:20:35 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:20:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:20:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1373 ms
+2025-06-09 18:20:36 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:20:36 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:20:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:20:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:20:36 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.631 seconds (process running for 3.716)
+2025-06-09 18:20:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:20:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:20:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-09 18:20:49 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [113] milliseconds.
+2025-06-09 18:22:34 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:22:34.923815300
+2025-06-09 18:23:47 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:23:47 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:23:51 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 96196 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:23:51 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:23:51 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:23:51 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:23:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:23:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:23:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:23:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:23:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:23:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+2025-06-09 18:23:52 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:23:53 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:23:53 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:23:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:23:53 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.6 seconds (process running for 3.574)
+2025-06-09 18:24:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:24:14 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:24:14 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-09 18:24:22 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [120] milliseconds.
+2025-06-09 18:24:22 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:24:22.374712100
+2025-06-09 18:27:11 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:27:11 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:27:15 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 91076 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:27:15 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:27:15 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:27:15 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:27:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:27:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:27:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:27:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:27:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:27:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+2025-06-09 18:27:16 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:27:17 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:27:17 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:27:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:27:17 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.414 seconds (process running for 3.366)
+2025-06-09 18:27:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:27:27 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:27:28 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-09 18:27:46 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [106] milliseconds.
+2025-06-09 18:27:46 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:27:46.796136800
+2025-06-09 18:28:39 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:28:39 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:35:33 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 97452 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:35:33 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:35:33 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:35:33 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:35:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:35:35 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:35:35 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:35:35 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:35:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:35:35 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1394 ms
+2025-06-09 18:35:35 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:35:35 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:35:35 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:35:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:35:35 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.723 seconds (process running for 3.748)
+2025-06-09 18:35:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:35:46 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:35:46 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-06-09 18:36:28 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [111] milliseconds.
+2025-06-09 18:36:28 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:36:28.498024700
+2025-06-09 18:37:11 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:37:11.687669800
+2025-06-09 18:37:28 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:37:28.501074400
+2025-06-09 18:37:44 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:37:44.694944200
+2025-06-09 18:38:03 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:38:03.043885200
+2025-06-09 18:38:25 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:38:25.307183100
+2025-06-09 18:38:36 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:38:36.244726600
+2025-06-09 18:38:52 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:38:52.740341300
+2025-06-09 18:39:04 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:39:04.096275800
+2025-06-09 18:44:07 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2025-06-09 18:44:07 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:44:07 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:07 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:44:07 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:07 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 97452 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:44:07 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:44:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:44:08 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:08 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:44:08 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:44:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:44:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 527 ms
+2025-06-09 18:44:08 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:44:08 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:44:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:44:08 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 0.764 seconds (process running for 516.294)
+2025-06-09 18:44:08 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-06-09 18:44:09 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2025-06-09 18:44:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:44:09 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:10 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:44:10 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:10 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 97452 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:44:10 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:44:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:44:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:44:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:44:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:44:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 337 ms
+2025-06-09 18:44:10 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:44:10 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:44:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:44:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:44:10 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 0.513 seconds (process running for 518.385)
+2025-06-09 18:44:10 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-06-09 18:45:27 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:45:27 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:45:33 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 88248 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:45:33 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:45:33 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:45:33 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:45:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:45:34 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:45:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:45:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:45:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:45:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1420 ms
+2025-06-09 18:45:34 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:45:35 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:45:35 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:45:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:45:35 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.582 seconds (process running for 3.575)
+2025-06-09 18:45:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:45:40 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:45:40 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-09 18:46:02 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+2025-06-09 18:46:02 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:46:02.213989500
+2025-06-09 18:46:21 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:46:21.667311700
+2025-06-09 18:46:32 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:46:32.448166200
+2025-06-09 18:49:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:49:17 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:49:21 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 96372 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:49:21 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:49:21 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:49:21 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:49:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:49:23 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:49:23 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:49:23 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:49:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:49:23 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1614 ms
+2025-06-09 18:49:23 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:49:24 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:49:24 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:49:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:49:24 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 3.197 seconds (process running for 4.532)
+2025-06-09 18:49:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:49:27 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:49:27 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-09 18:49:43 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+2025-06-09 18:49:43 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:49:43.945338100
+2025-06-09 18:49:57 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:49:57.865750400
+2025-06-09 18:55:20 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:55:20 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:55:24 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 45908 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:55:24 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:55:24 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:55:24 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:55:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:55:25 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:55:25 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:55:25 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:55:25 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:55:25 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1507 ms
+2025-06-09 18:55:26 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:55:26 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:55:26 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:55:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:55:26 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.728 seconds (process running for 3.758)
+2025-06-09 18:55:33 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:55:33 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:55:33 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-09 18:55:50 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:55:50.322046300
+2025-06-09 18:56:02 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:56:02.844310900
+2025-06-09 18:56:19 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:56:19.811718400
+2025-06-09 18:56:32 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:56:32.184149100
+2025-06-09 18:56:44 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:56:44.106359400
+2025-06-09 18:58:00 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:58:00 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:58:04 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 91892 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:58:04 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:58:04 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:58:04 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:58:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:58:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:58:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:58:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:58:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:58:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1673 ms
+2025-06-09 18:58:06 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:58:06 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:58:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:58:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:58:06 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.856 seconds (process running for 3.934)
+2025-06-09 18:58:20 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:58:20 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-09 18:58:25 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Starting RoleBasedLoginLoggerApplicationKt using Java 17.0.14 with PID 64356 (C:\Users\ACER\kotlin\RoleBasedLoginLogger\target\classes started by ACER in C:\Users\ACER\kotlin\RoleBasedLoginLogger)
+2025-06-09 18:58:25 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:58:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-09 18:58:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-09 18:58:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 1010 (http)
+2025-06-09 18:58:26 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:58:26 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-09 18:58:26 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-09 18:58:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-09 18:58:26 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1346 ms
+2025-06-09 18:58:26 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-06-09 18:58:27 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-09 18:58:27 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1010"]
+2025-06-09 18:58:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 1010 (http) with context path '/'
+2025-06-09 18:58:27 INFO  c.e.r.RoleBasedLoginLoggerApplicationKt - Started RoleBasedLoginLoggerApplicationKt in 2.565 seconds (process running for 3.622)
+2025-06-09 18:58:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 18:58:35 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-09 18:58:35 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-09 18:58:44 WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [113] milliseconds.
+2025-06-09 18:58:44 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'admin' logged in at 2025-06-09T18:58:44.110469800
+2025-06-09 18:58:59 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:58:59.167566900
+2025-06-09 18:59:09 INFO  c.e.r.m.CustomLoginSuccessHandler - User 'user' logged in at 2025-06-09T18:59:09.853918600
+2025-06-09 18:59:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 18:59:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
