@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Admin Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9f2fb;
+            color: #1c3d6e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 2.5rem 3rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(28, 61, 110, 0.15);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+        form button {
+            background-color: #1c3d6e;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #14509e;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Admin Page</h2>
+    <p>Only visible to ADMIN users.</p>
+    <form th:action="@{/logout}" method="post" style="display:inline">
+        <button type="submit">Logout</button>
+    </form>
+</div>
+</body>
+</html>
