@@ -1,0 +1,3 @@
+2025-06-10 14:20:01 [main] INFO  LoginController - User login attempt: admin
+2025-06-10 14:20:02 [main] WARN  LoginController - Access denied for user: admin with wrong password
+2025-06-10 14:21:15 [main] INFO  LogoutController - User logged out: admin
